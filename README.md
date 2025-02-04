@@ -2,7 +2,7 @@
 
 [![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/) 
 
-[cURL](https://curl.se/) is a command line tool for transferring data, most commonly by sending HTTP requests. You can use it to send requests to REST APIs and scrape websites. This guide explains what a cURL POST request is, how to send it, and what command line arguments you can use while doing that.
+[cURL](https://brightdata.com/blog/web-data/what-is-curl#:~:text=curl%2C%20short%20for%20%E2%80%9Cclient%20URL,%2C%20cars%2C%20and%20medical%20devices.) is a command line tool for transferring data, most commonly by sending HTTP requests. You can use it to send requests to REST APIs and scrape websites. This guide explains what a cURL POST request is, how to send it, and what command line arguments you can use while doing that.
 
 - [What Is a POST Request](#what-is-a-post-request)
 - [Installing cURL](#installing-curl)
@@ -77,7 +77,7 @@ For example, to send a POST request to `https://httpbin.org/anything`, do this:
 curl -X POST https://httpbin.org/anything
 ```
 
-httpbin.org echoes the request body and headers in the response. Your response should look like this:
+[httpbin.org](httpbin.org) echoes the request body and headers in the response. Your response should look like this:
 
 ```json
 {
@@ -228,4 +228,4 @@ curl -X POST -u 'admin:password123' --json '{
 
 ## Conclusion
 
-cURL offers many additional features worth exploring, such as using variables, sending cookies, and working with proxies. To avoid exposing your public IP address when making automated HTTP requests, consider using [Bright Data's proxy servers](https://brightdata.com/proxy-types) to mask your IP address. Create a free Bright Data account today to test our proxies and scraping solutions!
+cURL offers many additional features worth exploring, such as using variables, sending cookies, and working with proxies. To avoid exposing your public IP address when making automated HTTP requests, consider using [Bright Data's proxy services](https://brightdata.com/proxy-types) to mask your IP address. Create a free Bright Data account today to test our proxies and scraping solutions!
